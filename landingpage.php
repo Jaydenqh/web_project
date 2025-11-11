@@ -27,7 +27,7 @@
     <p><b>Choose an action:</b></p>
     <ul>
       <li><a href="add_product.php">➕ Add New Product</a></li>
-      <li><a href="view_products.php">📋 View All Products</a></li>
+      <li><a href="view_product.php">📋 View All Products</a></li>
       <li><a href="about.php">ℹ️ About This System</a></li>
     </ul>
   </main>
