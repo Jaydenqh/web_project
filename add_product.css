@@ -1,0 +1,113 @@
+/* Reset */
+body, h1, h2, p, form, input, label, button, nav, a {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+  background-color: #f4f4f4;
+  padding-bottom: 40px;
+  color: #222;
+}
+
+/* Header Bar */
+header {
+  background: #8B0000; /* Dark Red */
+  color: white;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 4px solid #b30000;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Navigation Links */
+nav a {
+  color: #ffeaea;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 12px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px #fff;
+}
+
+/* Main Container */
+main {
+  max-width: 700px;
+  background: white;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
+
+main h2 {
+  text-align: center;
+  color: #8B0000;
+  margin-bottom: 25px;
+}
+
+/* Form Inputs */
+form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-color: #8B0000;
+  outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  width: 100%;
+  background: #8B0000;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #b30000;
+  transform: scale(1.03);
+}
+
+/* Back Link */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #8B0000;
+}
+
+a:hover {
+  text-decoration: underline;
+}

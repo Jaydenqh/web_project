@@ -35,7 +35,7 @@ if (isset($_POST['update'])) {
 <head>
   <meta charset="UTF-8">
   <title>Update Product | MiniMart Manager</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="update.css">
 </head>
 <body>
   <header>
@@ -72,7 +72,7 @@ if (isset($_POST['update'])) {
     </form>
 
     <br>
-    <a href="view_products.php">← Back to Product List</a>
+    <a href="view_product.php">← Back to Product List</a>
   </main>
 </body>
 </html>

@@ -8,7 +8,7 @@ include 'db_connect.php';
 <head>
   <meta charset="UTF-8">
   <title>Add Product | MiniMart Manager</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="add_product.css">
   <script src="js/script.js"></script> <!-- for form validation -->
 </head>
 

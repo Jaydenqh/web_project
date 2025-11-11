@@ -7,7 +7,7 @@ include 'db_connect.php'; // connect to database
 <head>
   <meta charset="UTF-8">
   <title>View Products | MiniMart Manager</title>
-  <link rel="stylesheet" href="view_product.css">
+  <link rel="stylesheet" href="view.css">
 </head>
 
 <body>
