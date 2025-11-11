@@ -27,9 +27,61 @@
         </div>
     </div>
 
-    <div>
-        <div>
-            
+    <div class="member">
+        <div class="member-box">
+            <div class="member-img">
+                <img src="" alt="">
+            </div>
+
+            <div class="member-text">
+                <ul>
+                    <li><h3>Chin Qi Huang</h3></li>
+                    <li>Project Manager</li>
+                    <li>chinqh@gamil.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="member-box">
+            <div class="member-img">
+                <img src="" alt="">
+            </div>
+
+            <div class="member-text">
+                <ul>
+                    <li><h3>Bernice Yau Xin En</h3></li>
+                    <li>System Administration</li>
+                    <li>bernice@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="member-box">
+            <div class="member-img">
+                <img src="" alt="">
+            </div>
+
+            <div class="member-text">
+                <ul>
+                    <li><h3>Ho Zhi Xuan</h3></li>
+                    <li>Web Developer</li>
+                    <li>zhixuanho@gamil.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="member-box">
+            <div class="member-img">
+                <img src="" alt="">
+            </div>
+
+            <div class="member-text">
+                <ul>
+                    <li><h3>Poh Vee Ee</h3></li>
+                    <li>IT Support Specialist</li>
+                    <li>veeee@gamil.com</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>

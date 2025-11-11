@@ -23,7 +23,7 @@ body {
 }
 
 .para1{
-    padding-top: 2%;
+    margin: 2%;
     padding-bottom: 2%;
     text-align: center;
     color: #842929;
@@ -36,4 +36,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+}
+
+.member{
+    display: flex;
+    flex-direction: row;
+}
+
+.member-box{
+    display: flex;
+    margin: 2%;
+    background-color: #842929;
+    color: #f0f0f0;
+    width: 20%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+ul, li{
+    list-style-type: none;
 }
