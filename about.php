@@ -44,7 +44,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="" alt="">
+                <img src="" alt="member2">
             </div>
 
             <div class="member-text">
@@ -58,7 +58,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="" alt="">
+                <img src="zhixuan.jpg" alt="memeber3">
             </div>
 
             <div class="member-text">

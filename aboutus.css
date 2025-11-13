@@ -41,16 +41,24 @@ body {
 .member{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .member-box{
     display: flex;
+    flex-direction: column;
     margin: 2%;
+    align-items: center;
     background-color: #842929;
     color: #f0f0f0;
     width: 20%;
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.member-img{
+    display: flex;
+    width: 30vw;
 }
 
 ul, li{
