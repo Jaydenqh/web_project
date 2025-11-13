@@ -6,7 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="aboutus.css">
 </head>
+
 <body>
+    <header>
+        <h1>🛒 MiniMart Manager</h1>
+        <nav>
+            <a href="landingpage.php">Home</a> |
+            <a href="add_product.php">Add Product</a> |
+            <a href="view_product.php">View Products</a> |
+            <a href="about.php">About</a>
+        </nav>
+        <hr>
+    </header>
+
     <div class="hero-img1">
         <div class="hero-text">
             <h1>About This Web</h1>
@@ -15,8 +27,8 @@
 
     <div>
         <h3 class="para1">
-            This MiniMart Manager system is designed to assist store staff in efficientky monitor and manage product inveentory.
-            <br>Inventory management plays a role in ensuring that stock levels are accurate, products are available for customers, and the business runs smoothly.
+            This MiniMart Manager system is designed to assist store staff in efficiently monitor and manage product inveentory.
+            <br>Inventory management plays a role in ensuring stock levels are accurate, products are available for customers, and the business runs smoothly.
             <br>This system provides a simple and user-friendly interface that allows staff to <br>add new products, view current stock levels and update item details and delete item that no longer available.
         </h3>
     </div>
@@ -30,7 +42,7 @@
     <div class="member">
         <div class="member-box">
             <div class="member-img">
-                <img src="" alt="">
+                <img src="" alt="member1">
             </div>
 
             <div class="member-text">
@@ -44,7 +56,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="" alt="member2">
+                <img src="bernice.jpg" alt="member2">
             </div>
 
             <div class="member-text">
@@ -58,7 +70,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="zhixuan.jpg" alt="memeber3">
+                <img src="zhixuan.jpg" alt="member3">
             </div>
 
             <div class="member-text">
@@ -72,14 +84,14 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="" alt="">
+                <img src="ve.jpg" alt="member4">
             </div>
 
             <div class="member-text">
                 <ul>
                     <li><h3>Poh Vee Ee</h3></li>
                     <li>IT Support Specialist</li>
-                    <li>veeee@gamil.com</li>
+                    <li>ve@gmail.com</li>
                 </ul>
             </div>
         </div>
