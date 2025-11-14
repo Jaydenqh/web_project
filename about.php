@@ -42,7 +42,7 @@
     <div class="member">
         <div class="member-box">
             <div class="member-img">
-                <img src="" alt="member1">
+                <img src="jayden.jpg" alt="member1">
             </div>
 
             <div class="member-text">
