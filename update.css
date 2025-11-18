@@ -1,18 +1,14 @@
-/* ----- UPDATE PRODUCT PAGE FORM STYLING ----- */
-
 main h2 {
   text-align: center;
   color: #8B0000;
   margin-bottom: 25px;
 }
 
-/* Form container spacing */
 form {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* Labels */
 form label {
   font-weight: 600;
   display: block;
@@ -20,7 +16,6 @@ form label {
   color: #333;
 }
 
-/* Input fields */
 form input {
   width: 100%;
   padding: 10px;
@@ -36,7 +31,6 @@ form input:focus {
   outline: none;
 }
 
-/* Submit (Save Changes) button */
 button[name="update"] {
   width: 100%;
   background: #8B0000;
@@ -45,7 +39,6 @@ button[name="update"] {
   font-size: 1rem;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
   font-weight: 700;
   transition: 0.3s;
 }
@@ -55,7 +48,6 @@ button[name="update"]:hover {
   transform: scale(1.03);
 }
 
-/* Back link */
 main a {
   display: inline-block;
   margin-top: 10px;
