@@ -70,9 +70,22 @@ if (isset($_POST['submit'])) {
 
   // check if insert is successful
   if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('✅ Product added successfully!');</script>";
-  } else {
-    echo "<script>alert('❌ Error: " . $conn->error . "');</script>";
+    // 2) prepare default values for sales table
+    $quantity_sold = 0;
+    $cost          = 100.00;
+    $profit        = 0.00;
+
+    // 3) insert into sales table
+    // (your current sales table does NOT use product_id in this query)
+    $sql2 = "INSERT INTO sales (product_name, category, price, quantity_sold, cost, profit)
+             VALUES ('$name', '$cat', $price, $quantity_sold, $cost, $profit)";
   }
+  
+  if ($conn->query($sql2) === TRUE) {
+    echo "<script>alert('✅ Product added and sales recorded succesfully!');</script>";
+} else { echo "<script>alert('⚠️ Error creating sales record: " . $conn->error . "');</script>"; 
 }
+
+}
+
 ?>
