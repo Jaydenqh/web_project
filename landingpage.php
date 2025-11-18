@@ -12,6 +12,7 @@
       <a href="landingpage.php">Home</a> |
       <a href="add_product.php">Add Product</a> |
       <a href="view_product.php">View Products</a> |
+      <a href="sales.php">Product Sales</a> |
       <a href="about.php">About</a>
     </nav>
     <hr>
@@ -28,6 +29,7 @@
     <ul>
       <li><a href="add_product.php">➕ Add New Product</a></li>
       <li><a href="view_product.php">📋 View All Products</a></li>
+      <li><a href="sales.php">📈 Product Sales</a></li>
       <li><a href="about.php">ℹ️ About This System</a></li>
     </ul>
   </main>
