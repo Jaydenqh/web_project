@@ -31,6 +31,7 @@
       <li><a href="add_product.php">➕ Add New Product</a></li>
       <li><a href="view_product.php">📋 View All Products</a></li>
       <li><a href="sales.php">📈 Product Sales</a></li>
+      <li><a href="supplier.php">🏢 Manage Suppliers</a></li>
       <li><a href="about.php">ℹ️ About This System</a></li>
     </ul>
   </main>
