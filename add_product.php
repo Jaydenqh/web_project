@@ -9,8 +9,7 @@ include 'db_connect.php';
   <meta charset="UTF-8">
   <title>Add Product | MiniMart Manager</title>
   <link rel="stylesheet" href="add_product.css">
-  <script src="js/script.js"></script> <!-- for form validation -->
-</head>
+  <script src="js/script.js"></script> 
 
 <body>
   <header>
@@ -55,29 +54,23 @@ include 'db_connect.php';
 </html>
 
 <?php
-// when the form is submitted
 if (isset($_POST['submit'])) {
 
-  // Step 4 – get form data
   $name = $_POST['product_name'];
   $cat = $_POST['category'];
   $price = $_POST['price'];
   $qty = $_POST['quantity'];
   $supplier = $_POST['supplier'];
 
-  //  insert data into database
   $sql = "INSERT INTO products (product_name, category, price, quantity, supplier)
           VALUES ('$name','$cat','$price','$qty','$supplier')";
 
-  // check if insert is successful
   if ($conn->query($sql) === TRUE) {
-    // 2) prepare default values for sales table
     $quantity_sold = 0;
     $cost          = 100.00;
     $profit        = 0.00;
 
-    // 3) insert into sales table
-    // (your current sales table does NOT use product_id in this query)
+    
     $sql2 = "INSERT INTO sales (product_name, category, price, quantity_sold, cost, profit)
              VALUES ('$name', '$cat', $price, $quantity_sold, $cost, $profit)";
   }
