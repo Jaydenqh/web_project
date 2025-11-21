@@ -19,6 +19,7 @@ include 'db_connect.php';
       <a href="add_product.php">Add Product</a> |
       <a href="view_product.php">View Products</a> |
       <a href="sales.php">Product Sales</a> |
+      <a href="supplier.php">Suppliers</a> |
       <a href="about.php">About</a>
     </nav>
     <hr>
