@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
   font-family: "Inter", Arial, sans-serif;
   background: #f4f4f4;
@@ -7,7 +6,7 @@ body {
   color: #222;
 }
 
-/* Header */
+
 header {
   background: #8B0000;
   color: white;
@@ -34,7 +33,7 @@ nav a:hover {
   text-shadow: 0 0 6px white;
 }
 
-/* Main Container */
+
 main {
   max-width: 900px;
   background: white;
@@ -51,7 +50,7 @@ main h2 {
   font-size: 1.8rem;
 }
 
-/* Table Styles */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -72,17 +71,17 @@ table td {
   text-align: center;
 }
 
-/* Even Row Shading */
+
 table tr:nth-child(even) {
   background: #f9f9f9;
 }
 
-/* Hover Highlight Row */
+
 table tr:hover {
   background: #fff4f4;
 }
 
-/* Action Links */
+
 table a {
   color: #8B0000;
   font-weight: 600;
@@ -95,7 +94,7 @@ table a:hover {
   text-decoration: underline;
 }
 
-/* Bottom Links */
+
 main a {
   text-decoration: none;
   font-weight: 600;
