@@ -35,7 +35,7 @@ include 'db_connect.php'; // connect to database
     </tr>
 
     <?php
-    $supplier_result = $conn->query("SELECT * FROM suppliers ORDER BY id DESC");
+    $supplier_result = $conn->query("SELECT * FROM suppliers ORDER BY id ASC");
 
     if ($supplier_result->num_rows > 0) {
       while ($s = $supplier_result->fetch_assoc()) {
