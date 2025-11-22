@@ -68,7 +68,7 @@ include 'db_connect.php'; // connect to database
     </table>
 
     <br>
-    <a href="view_product.php">➕ View Product</a> | 
+    <a href="add_product.php">➕ Add New Product</a> | 
     <a href="landingpage.php">🏠 Back to Home</a>
 
   </main>
