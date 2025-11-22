@@ -51,7 +51,7 @@
                 <ul>
                     <li><h3>Chin Qi Huang</h3></li>
                     <li>Project Manager</li>
-                    <li>chinqh@gamil.com</li>
+                    <li>chinqh@gmail.com</li>
                 </ul>
             </div>
         </div>
@@ -79,7 +79,7 @@
                 <ul>
                     <li><h3>Ho Zhi Xuan</h3></li>
                     <li>Web Developer</li>
-                    <li>zhixuanho@gamil.com</li>
+                    <li>zhixuanho@gmail.com</li>
                 </ul>
             </div>
         </div>
@@ -93,7 +93,7 @@
                 <ul>
                     <li><h3>Poh Vee Ee</h3></li>
                     <li>IT Support Specialist</li>
-                    <li>ve@gmail.com</li>
+                    <li>vepoh@gmail.com</li>
                 </ul>
             </div>
         </div>
