@@ -54,7 +54,7 @@ include 'db_connect.php'; // connect to database
           echo "<td>" . $row['cost'] . "</td>";
           echo "<td>" . $row['profit'] . "</td>";
           echo "<td>
-                  <a href='update_sales.php?id=" . $row['id'] . "'>Edit</a> 
+                  <a href='editsales.php?id=" . $row['id'] . "'>Edit</a>
                 </td>";
           echo "</tr>";
         }
