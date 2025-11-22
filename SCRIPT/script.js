@@ -15,5 +15,5 @@ function validateForm() {
     alert("Quantity cannot be negative.");
     return false;
   }
-  return true; // allow submit
+  return true; 
 }

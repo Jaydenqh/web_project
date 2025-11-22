@@ -1,16 +1,13 @@
 <?php
 include 'db_connect.php';
 
-// Check if there's an 'id' in the link (e.g. ?id=3)
 if (isset($_GET['id'])) {
   $id = $_GET['id'];
 
-  //  Get the product details for that ID
   $result = $conn->query("SELECT * FROM sales WHERE id=$id");
   $row = $result->fetch_assoc();
 }
 
-// When form is submitted, update the data
 if (isset($_POST['update'])) {
   $name = $_POST['product_name'];
   $cat = $_POST['category'];

@@ -28,7 +28,6 @@ include 'db_connect.php';
   <main>
     <h2>Add New Product</h2>
 
-    <!-- HTML Form -->
     <form action="" method="POST" onsubmit="return validateForm()">
       <label>Product Name:</label><br>
       <input type="text" name="product_name" required><br><br>

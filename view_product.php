@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php'; // connect to database
+include 'db_connect.php'; 
 ?>
 
 <!DOCTYPE html>
@@ -39,10 +39,8 @@ include 'db_connect.php'; // connect to database
       </tr>
 
       <?php
-      // Run SQL to get all products
       $result = $conn->query("SELECT * FROM products ORDER BY id ASC");
 
-      // If there are rows, display them
       if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
           echo "<tr>";
