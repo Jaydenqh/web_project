@@ -7,7 +7,7 @@ include 'db_connect.php';
 <head>
   <meta charset="UTF-8">
   <title>Product Sales | MiniMart Manager</title>
-  <link rel="stylesheet" href="sales.css">
+  <link rel="stylesheet" href="CSS/sales.css">
 </head>
 
 <body>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="CSS/about.css">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
     <div class="member">
         <div class="member-box">
             <div class="member-img">
-                <img src="jayden.jpg" alt="member1">
+                <img src="PHOTO/jayden.jpg" alt="member1">
             </div>
 
             <div class="member-text">
@@ -58,7 +58,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="bernice.jpg" alt="member2">
+                <img src="PHOTO/bernice.jpg" alt="member2">
             </div>
 
             <div class="member-text">
@@ -72,7 +72,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="zhixuan.jpg" alt="member3">
+                <img src="PHOTO/zhixuan.jpg" alt="member3">
             </div>
 
             <div class="member-text">
@@ -86,7 +86,7 @@
 
         <div class="member-box">
             <div class="member-img">
-                <img src="ve.jpg" alt="member4">
+                <img src="PHOTO/ve.jpg" alt="member4">
             </div>
 
             <div class="member-text">

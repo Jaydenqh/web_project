@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>MiniMart Manager | Home</title>
-  <link rel="stylesheet" href="landingpage.css"> <!-- external CSS -->
+  <link rel="stylesheet" href="CSS/landingpage.css"> 
 </head>
 <body>
   <header>
