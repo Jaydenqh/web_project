@@ -31,7 +31,7 @@
         <h3 class="para1">
             This MiniMart Manager system is designed to assist store staff in efficiently monitor and manage product inveentory.
             <br>Inventory management plays a role in ensuring stock levels are accurate, products are available for customers, and the business runs smoothly.
-            <br>This system provides a simple and user-friendly interface that allows staff to <br>add new products, view current stock levels and update item details and delete item that no longer available.
+            <br>This system provides a simple and user-friendly interface that allows staff to <br>add new products, view current stock levels, update item details, delete item that no longer available, view sales and supplier details.
         </h3>
     </div>
 
