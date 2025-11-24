@@ -20,7 +20,7 @@ if (isset($_POST['update'])) {
           WHERE id=$id";
 
   if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('✅ Product updated successfully!'); window.location='view_products.php';</script>";
+    echo "<script>alert('✅ Product updated successfully!'); window.location='view_product.php';</script>";
   } else {
     echo "<script>alert('❌ Error updating product!');</script>";
   }
