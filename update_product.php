@@ -32,7 +32,7 @@ if (isset($_POST['update'])) {
 <head>
   <meta charset="UTF-8">
   <title>Update Product | MiniMart Manager</title>
-  <link rel="stylesheet" href="update.css">
+  <link rel="stylesheet" href="CSS/update.css">
 </head>
 <body>
   <header>
