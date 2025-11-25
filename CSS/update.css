@@ -34,28 +34,11 @@ form input:focus {
 button[name="update"] {
   width: 100%;
   background: #8B0000;
-  color: white;
+  color: #fff;
   padding: 12px;
   font-size: 1rem;
   border: none;
   border-radius: 6px;
   font-weight: 700;
-  transition: 0.3s;
-}
-
-button[name="update"]:hover {
-  background: #b30000;
-  transform: scale(1.03);
-}
-
-main a {
-  display: inline-block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #8B0000;
-  font-weight: 600;
-}
-
-main a:hover {
-  text-decoration: underline;
+  transition: background 0.3s, transform 0.3s;
 }
